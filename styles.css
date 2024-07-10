@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Potta+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+h2{
+    color: rgb(255, 213, 0);
+    font-size: xx-large;
+    text-shadow: 1px 1px 3px orangered;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://img.freepik.com/free-vector/gradient-liquid-abstract-background_23-2148922302.jpg?ga=GA1.1.1828478880.1720538026&semt=sph");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 22rem;
+  margin-top: 8rem;
+  backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 30px;
+  box-shadow: 4px 4px 5px black;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  color:#fff;
+}
+
+.inputs input {
+  outline: none;
+  height: 35px;
+  border-radius: 5px;
+  border-color: blue;
+  font-size: 17px;
+  color: crimson;
+  font-weight:bolder;
+}
+
+#results {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 1px 2px goldenrod;
+}
+.bmi{
+  margin-top: 15px;
+  font-weight: bold;
+  color:rgb(255, 178, 35);
+}
+.calcBtn {
+  width: 100%;
+  padding: 8px 0;
+  margin-top: 10px;
+  border-radius: 5px;
+  border-style:ridge;
+  border-color: cornsilk;
+  background: #256aff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+#message {
+    color:cornsilk;
+  text-align: center;
+  text-shadow: 1px 1px 2px goldenrod;
+  font-weight: bolder;
+}
